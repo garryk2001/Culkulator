@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.culkulator.CalcController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.culkulator.CalcController">
+    <children>
+        <Button layoutX="181.0" layoutY="123.0" mnemonicParsing="false" onAction="#onCalcClick" text="Calc" />
+        <Label layoutX="52.0" layoutY="26.0" text="first" />
+        <Label layoutX="131.0" layoutY="26.0" text="action" />
+        <Label layoutX="210.0" layoutY="26.0" text="second" />
+        <TextField fx:id="idFirst" layoutX="21.0" layoutY="47.0" prefHeight="31.0" prefWidth="88.0" />
+        <TextField fx:id="idAction" layoutX="131.0" layoutY="47.0" prefHeight="21.0" prefWidth="41.0" />
+        <TextField fx:id="idSecond" layoutX="207.0" layoutY="47.0" prefHeight="21.0" prefWidth="65.0" />
+        <Label fx:id="idResult" layoutX="358.0" layoutY="52.0" prefHeight="21.0" prefWidth="88.0" text="rezult" />
+
+    </children>
+</AnchorPane>
