@@ -15,7 +15,7 @@ public class CalcController {
     public void onCalcClick() {
         switch (idAction.getText()) {
             case ("+") ->
-                    idResult.setText("secRez = "Integer.toString(Integer.parseInt(idFirst.getText()) + Integer.parseInt(idSecond.getText())));
+                    idResult.setText(Integer.toString(Integer.parseInt(idFirst.getText()) + Integer.parseInt(idSecond.getText())));
             case ("-") ->
                     idResult.setText(Integer.toString(Integer.parseInt(idFirst.getText()) - Integer.parseInt(idSecond.getText())));
             case ("/") ->
