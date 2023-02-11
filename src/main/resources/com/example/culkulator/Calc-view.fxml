@@ -11,8 +11,8 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.culkulator.CalcController">
     <children>
         <Button layoutX="181.0" layoutY="123.0" mnemonicParsing="false" onAction="#onCalcClick" text="Calc" />
-        <Label layoutX="55.0" layoutY="26.0" text="first" />
-        <Label layoutX="133.0" layoutY="26.0" text="action" />
+        <Label layoutX="50.0" layoutY="26.0" text="first" />
+        <Label layoutX="130.0" layoutY="26.0" text="action" />
         <Label layoutX="210.0" layoutY="26.0" text="second" />
         <TextField fx:id="idFirst" layoutX="21.0" layoutY="47.0" prefHeight="31.0" prefWidth="88.0" />
         <TextField fx:id="idAction" layoutX="131.0" layoutY="47.0" prefHeight="21.0" prefWidth="41.0" />
